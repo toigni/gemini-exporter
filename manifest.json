@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Answer Exporter",
+  "version": "1.0",
+  "description": "Extract Gemini assistant answers only",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Export Gemini Answers"
+  }
+}
